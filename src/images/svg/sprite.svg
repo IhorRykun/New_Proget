@@ -16,5 +16,8 @@
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M102.578 19.166l-1.108 3.332h-1.425l3.626-10.591h1.666l3.642 10.591h-1.473l-1.144-3.332h-3.783zM106.076 18.104l-1.044-3.055c-0.238-0.692-0.401-1.32-0.555-1.933h-0.031c-0.159 0.628-0.333 1.273-0.535 1.917l-1.048 3.071h3.213z"></path>
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M112.314 11.911v10.591h-1.377v-10.591h1.377z"></path>
 </symbol>
+<symbol id="Polygon" viewBox="0 0 29 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M28.64 15.776l-27.2 15.776v-31.552l27.2 15.776z"></path>
+</symbol>
 </defs>
 </svg>
