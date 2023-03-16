@@ -2,7 +2,7 @@
   "name": "New_Proget",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/IhorRykun/New_Proget",
+  "homepage": " https://ihorrykun.github.io/New_Proget/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /New_Proget/"
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/goitacademy/pNew_Proget.git"
   },
   "keywords": [],
-  "author": "Alexandihorer Repeta <alexander.repeta@gmail.com>",
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/goitacademy/New_Proget/issues"
