@@ -123,6 +123,7 @@
   padding-bottom: 59px;
   background-color: rgba(13, 43, 109, 0.8);
   margin-top: 20px;
+  border-radius: 10px;
 }
 
 .form__title {
@@ -164,102 +165,4 @@
   border-radius: 10px;
   margin-top: 15px;
   cursor: pointer;
-}
-
-.user {
-  background-color: rgba(13, 43, 109, 1);
-}
-
-.user__list {
-  list-style: none;
-}
-
-.user__container {
-  width: 1000px;
-  padding-top: 72px;
-  padding-bottom: 21px;
-  padding-left: 201px;
-  display: flex;
-}
-
-.user__item {
-  margin-top: 4px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 130%;
-  color: #fda700;
-}
-
-.user__text__white {
-  color: #fff;
-}
-.user__item:first-child {
-  margin-top: 0;
-}
-
-.Prblem {
-  padding-top: 80px;
-  padding-bottom: 33px;
-  width: 767px;
-}
-
-.Problema__title {
-  font-family: 'Orchidea Pro';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 50px;
-  line-height: 100%; /* 50px/50 */
-  text-transform: uppercase;
-  color: #373737;
-  text-align: center;
-}
-
-.Problem__title-text {
-  width: 718px;
-  padding: 11px 0;
-  background: #0d2b6d;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 10px;
-  font-family: 'Orchidea Pro';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 30px;
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 14px;
-
-  color: #fda700;
-}
-.span__contain__text {
-  color: #fda700;
-}
-.Problem__text_contain {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 130%;
-  color: #373737;
-  margin-bottom: 20px;
-  width: 680px;
-}
-
-.Problem__contain--svg {
-  background-color: #0d2b6d;
-  width: 105px;
-  height: 105px;
-  border-radius: 50%;
-  margin-left: 330px;
-  position: relative;
-  display: block;
-}
-
-.Problem__svg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
