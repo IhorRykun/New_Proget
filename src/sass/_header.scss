@@ -1,0 +1,70 @@
+.header {
+  @media screen and (max-width: 1220px) {
+    background-image: url(../images/header/header_mobile.jpg);
+    padding-top: 35px;
+    padding-bottom: 64px;
+    padding-left: 19px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+.header__nav {
+  display: flex;
+}
+
+.header__nav__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.header__nav__link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  width: 220px;
+  height: 50px;
+  border: 1px solid #fda700;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fda700;
+  cursor: pointer;
+}
+
+.header__text__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 725px;
+}
+.header__text__title--span {
+  color: rgba(253, 167, 0, 1);
+}
+
+.header__text__about {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #ffffff;
+  width: 524px;
+}
