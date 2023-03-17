@@ -152,6 +152,12 @@
     left: 600px;
     margin-left: 0;
   }
+
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+    outline: 2px solid orange;
+  }
 }
 
 .decision {
