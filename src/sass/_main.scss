@@ -16,11 +16,14 @@
 }
 
 .user__container {
-  // width: 1000px;
   padding-top: 72px;
   padding-bottom: 21px;
   padding-left: 201px;
   display: flex;
+  @media screen and (max-width: 1479px) {
+    padding-left: 30px;
+  }
+  // width: 1000px;
 }
 
 .user__none {
@@ -284,4 +287,10 @@
 
 .none {
   display: none;
+}
+
+.user__img {
+  display: block;
+  height: auto;
+  border: 50%;
 }
