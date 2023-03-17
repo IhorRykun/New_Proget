@@ -52,6 +52,16 @@
   text-align: center;
 }
 
+.decision__text {
+  color: #000000;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+}
+
 .Problem__title-text {
   width: 718px;
   padding: 11px 0;
@@ -101,6 +111,7 @@
 }
 
 .decision {
+  padding-left: 24px;
   margin-top: 68px;
   max-width: 767px;
 }
@@ -127,6 +138,7 @@
 }
 
 .start {
+  padding-left: 24px;
   width: 767px;
   margin-top: 73px;
 }
