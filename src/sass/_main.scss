@@ -1,9 +1,14 @@
 .main {
   padding-bottom: 100px;
+  background: #f3f3f3;
 }
 
 .user {
   background-color: rgba(13, 43, 109, 1);
+  @media screen and (min-width: 1480px) {
+    display: flex;
+    margin-bottom: 193px;
+  }
 }
 
 .user__list {
@@ -11,11 +16,17 @@
 }
 
 .user__container {
-  width: 1000px;
+  // width: 1000px;
   padding-top: 72px;
   padding-bottom: 21px;
   padding-left: 201px;
   display: flex;
+}
+
+.user__none {
+  @media screen and (max-width: 1479px) {
+    display: none;
+  }
 }
 
 .user__item {
@@ -39,8 +50,28 @@
   padding-top: 80px;
   padding-bottom: 33px;
   width: 767px;
+  @media screen and (min-width: 1480px) {
+    width: 1380px;
+    margin: 0 auto;
+    background: #f3f3f3;
+    box-shadow: 4px 4px 4px rgba(83, 83, 83, 0.25);
+    padding-bottom: 0;
+    position: relative;
+    padding-bottom: 103px;
+  }
+}
+.problem__list {
+  @media screen and (max-width: 1479px) {
+    display: block;
+  }
+  display: flex;
+  gap: 20px;
 }
 
+.problem__item {
+  @media screen and (min-width: 1480px) {
+  }
+}
 .Problema__title {
   font-family: 'Orchidea Pro';
   font-style: normal;
@@ -63,7 +94,10 @@
 }
 
 .Problem__title-text {
-  width: 718px;
+  @media screen and (max-width: 1479px) {
+    width: 718px;
+  }
+  width: 289px;
   padding: 11px 0;
   background: #0d2b6d;
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -82,7 +116,11 @@
 .span__contain__text {
   color: #fda700;
 }
+
 .Problem__text_contain {
+  @media screen and (max-width: 1479px) {
+    width: 680px;
+  }
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -90,7 +128,7 @@
   line-height: 130%;
   color: #373737;
   margin-bottom: 20px;
-  width: 680px;
+  width: 289px;
 }
 
 .Problem__contain--svg {
@@ -98,19 +136,24 @@
   width: 105px;
   height: 105px;
   border-radius: 50%;
-  margin-left: 330px;
+  margin-top: 58px;
+  margin-left: 591px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  display: block;
-}
-
-.Problem__svg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  @media screen and (min-width: 1480px) {
+    position: absolute;
+    bottom: -54px;
+    left: 0;
+  }
 }
 
 .decision {
+  @media screen and (min-width: 1480px) {
+    display: none;
+  }
+
   padding-left: 24px;
   margin-top: 68px;
   max-width: 767px;
@@ -138,6 +181,9 @@
 }
 
 .start {
+  @media screen and (min-width: 1480px) {
+    display: none;
+  }
   padding-left: 24px;
   width: 767px;
   margin-top: 73px;

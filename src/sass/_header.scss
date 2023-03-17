@@ -12,7 +12,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding: 62px 355px;
-  padding-bottom: 295px;
+  padding-bottom: 131px;
 }
 
 .logo {
@@ -108,11 +108,52 @@
   color: #ffffff;
 }
 
+.block__logo__elive {
+  @media screen and(max-width:1479px) {
+    display: none;
+  }
+  display: flex;
+  align-items: center;
+  padding: 12px 13px;
+  width: 660px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  margin-top: 232px;
+}
+.block__logo__elive--text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #373737;
+  margin-left: 16px;
+  width: 379px;
+}
+
+.block__elive__button {
+  font-family: 'Orchidea Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+  color: #fda700;
+
+  width: 150px;
+  height: 54px;
+
+  margin-left: 16px;
+  background: #0d2b6d;
+  border-radius: 10px;
+
+  cursor: pointer;
+}
 .container__text__title--flex {
   @media screen and (min-width: 1480px) {
     display: flex;
   }
 }
+
 .video__container {
   position: relative;
   margin-top: 20px;
@@ -138,7 +179,10 @@
   line-height: 130%;
   color: #ffffff;
   margin-left: 106px;
+  position: relative;
 }
+
+// !сеція форми
 
 .form {
   max-width: 729px;
