@@ -40,6 +40,9 @@
 }
 
 .header__nav__item--margin {
+  @media screen and (max-width: 1479px) {
+    margin-left: 40px;
+  }
   margin-left: 514px;
 }
 
