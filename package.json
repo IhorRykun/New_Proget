@@ -1,21 +1,21 @@
 {
-  "name": "New_Proget",
+  "name": "New_Projet",
   "version": "2.0.0",
   "description": "",
-  "homepage": " https://ihorrykun.github.io/New_Proget/",
+  "homepage": " https://ihorrykun.github.io/New_Projet/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /New_Proget/"
+    "build": "parcel build src/*.html --public-url /New_Projet/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/New_Proget.git"
+    "url": "git+https://github.com/goitacademy/New_Projet.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/New_Proget/issues"
+    "url": "https://github.com/goitacademy/New_Projet/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
