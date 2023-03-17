@@ -4,6 +4,6 @@ let list = document.querySelector('.problem__list');
 elem.addEventListener(`click`, hendeTogle);
 
 function hendeTogle() {
-  list.classList.toggle('.display ');
+  list.classList.toggle('none');
   console.log('click');
 }
