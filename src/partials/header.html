@@ -29,20 +29,39 @@
   <p class="video__text">video</p>
  </div>
  <section>
-  <form class="form">
+  <form class="form" autocomplete="off">
    <h2 class="form__title">Registrazione</h2>
-   <label class="form__lable"> Name
-    <input class="form__input" type="text">
-   </label>
-   <label class="form__lable">Cognome
-    <input class="form__input" type="text">
-   </label>
-   <label class="form__lable">Email
-    <input class="form__input" type="text">
-   </label>
-   <label class="form__lable">+380
-    <input class="form__input" type="tel">
-   </label>
+   <div class="container__form__lable">
+    <input class="form__input" type="text" id="Name">
+    <label class="form__lable" for="Name"> Name
+    </label>
+   </div>
+   <div class="container__form__lable">
+    <input class="form__input" type="text" id="Cognome">
+    <label class="form__lable" for="Cognome">Cognome
+    </label>
+   </div>
+   <div class="container__form__lable">
+    <input class="form__input" type="text" id="mail">
+    <label class="form__lable" for="mail">Email
+    </label>
+   </div>
+   <div class="container__form__lable">
+    <input class="form__input" type="tel" id="telephone">
+    <label class="form__lable" for="telephone">
+     <select class="selected__from" id="telephone">
+      <option class="form__options" value="uk" selected>
+       <svg width="5" height="5">
+        <use href="./images/svg/sprite.svg#uk"></use>
+       </svg>
+       380
+      </option>
+      <option class="form__options" value="USA">0432</option>
+      <option class="form__options" value="SP">9832</option>
+      <option class="form__options" value="GR">45421</option>
+     </select>
+    </label>
+   </div>
    <button class="form__button" type="submit">Registrati</button>
   </form>
  </section>

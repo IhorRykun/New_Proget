@@ -22,5 +22,9 @@
 <symbol id="Vector" viewBox="0 0 60 32">
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M59.288 2.904c0.001 0.532-0.218 1.042-0.608 1.418l-26.988 26.081c-0.389 0.376-0.916 0.588-1.467 0.588s-1.079-0.212-1.468-0.588l-26.988-26.081c-0.797-0.785-0.79-2.045 0.014-2.822s2.107-0.784 2.921-0.014l25.519 24.661 25.52-24.662c0.594-0.574 1.487-0.745 2.262-0.435s1.282 1.042 1.282 1.853l0.001 0.001z"></path>
 </symbol>
+<symbol id="uk" viewBox="0 0 45 32">
+<path fill="#ffff0b" style="fill: var(--color1, #ffff0b)" d="M1.6 0h43.294v32h-43.294v-32z"></path>
+<path fill="#268cff" style="fill: var(--color2, #268cff)" d="M1.6 0h43.294v16h-43.294v-16z"></path>
+</symbol>
 </defs>
 </svg>
