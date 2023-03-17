@@ -162,6 +162,9 @@
   border-radius: 50%;
   background-color: rgba(13, 43, 109, 0.8);
   margin-left: 279px;
+  @media screen and (min-width: 1480px) {
+    margin-top: 70px;
+  }
 }
 
 .video__svg {
@@ -195,6 +198,10 @@
   background-color: rgba(13, 43, 109, 0.8);
   margin-top: 20px;
   border-radius: 10px;
+  @media screen and (min-width: 1480px) {
+    margin-left: -365px;
+    margin-top: 176px;
+  }
 }
 
 .form__title {
@@ -226,6 +233,10 @@
   &:last-child {
     margin-top: 0px;
   }
+
+  @media screen and (min-width: 1480px) {
+    width: 400px;
+  }
 }
 
 .form__lable {
@@ -244,6 +255,9 @@
   border-radius: 10px;
   margin-top: 15px;
   cursor: pointer;
+  @media screen and (min-width: 1480px) {
+    width: 400px;
+  }
 }
 
 .selected__from {
@@ -251,6 +265,7 @@
   background-color: inherit;
   border: none;
   color: white;
+  cursor: pointer;
 }
 
 .form__options {

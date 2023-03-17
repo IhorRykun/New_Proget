@@ -137,7 +137,7 @@
   height: 105px;
   border-radius: 50%;
   margin-top: 58px;
-  margin-left: 591px;
+  margin-left: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -145,7 +145,8 @@
   @media screen and (min-width: 1480px) {
     position: absolute;
     bottom: -54px;
-    left: 0;
+    left: 600px;
+    margin-left: 0;
   }
 }
 
@@ -278,4 +279,8 @@
   position: absolute;
   top: 0;
   right: 27px;
+}
+
+.display {
+  display: none;
 }
