@@ -17,6 +17,14 @@
 
 .logo {
   margin-right: 63px;
+  fill: #fff;
+}
+.logo__link .logo {
+  padding: 5px;
+  &:focus,
+  &:hover {
+    fill: #fda700;
+  }
 }
 .header__nav {
   display: flex;
@@ -50,6 +58,11 @@
   text-decoration: none;
   color: #fda700;
   cursor: pointer;
+  &:hover,
+  &:focus {
+    border: 2px solid white;
+    color: #fff;
+  }
 }
 
 .header__nav__text {
@@ -147,6 +160,12 @@
   border-radius: 10px;
 
   cursor: pointer;
+
+  &:hover,
+  &:focus {
+   color:white;
+   
+  }
 }
 .container__text__title--flex {
   @media screen and (min-width: 1480px) {
@@ -258,8 +277,12 @@
   @media screen and (min-width: 1480px) {
     width: 400px;
   }
+  &:hover,
+  &:focus {
+    color: white;
+    outline: 2px solid white;
+  }
 }
-
 .selected__from {
   height: 30px;
   background-color: inherit;
